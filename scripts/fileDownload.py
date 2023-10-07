@@ -1,5 +1,6 @@
 import gdown, sys
 import environ
+import logFile
 
 
 def download_folders():
@@ -22,5 +23,7 @@ def download_folders():
     
   gdown.download_folder(parameters_folder_url, output=outuput_folder)
 
+  message = "Parametrs files succesfully downloaded"
+  logFile.mainLog(message)
 download_folders()
 

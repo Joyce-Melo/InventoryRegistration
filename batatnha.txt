@@ -1,0 +1,5 @@
+2023-10-06 20:31:14,513:WARNING:Algo de errado não está certo
+2023-10-06 20:31:14,513:ERROR:Ihhh deu ruim
+2023-10-06 20:31:14,514:DEBUG:Msg de debug
+2023-10-06 20:31:14,514:INFO:msg de info
+2023-10-06 20:31:14,515:INFO:msg info 2
