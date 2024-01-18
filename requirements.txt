@@ -1,6 +1,7 @@
 botcity-framework-core>=1.0.0,<2.0
 botcity-framework-web>=0.8.0,<1.0
 botcity-maestro-sdk>=0.3.3,<1.0
+google-api-python-client
 pandas
 openpyxl
 gdown
