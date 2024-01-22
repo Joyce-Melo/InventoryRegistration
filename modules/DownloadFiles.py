@@ -20,7 +20,7 @@ class DownloadFiles:
             
         except Exception as e:
             self.set_log.set_log_error(str(e))
-            print(e)
+
 
     def parameters_folder_download(self):
         try:
@@ -31,9 +31,6 @@ class DownloadFiles:
 
         except Exception as e:
             self.set_log.set_log_error(str(e))
-            print(e)
 
-download = DownloadFiles()
-download.input_folder_download()
-download.parameters_folder_download()
+
 
