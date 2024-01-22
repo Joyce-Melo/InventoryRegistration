@@ -95,6 +95,8 @@ class EmailSender:
             get_root_directory = GetRootDirectory()
             root_directory = get_root_directory.GetDirectory()
             self.email_addresses = self.load_email_addresses_from_excel()
+            
+
 
             if not self.email_addresses:
                 self.set_log.set_log_error('No email adresses found')
